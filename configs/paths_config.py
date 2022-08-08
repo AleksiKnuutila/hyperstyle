@@ -10,7 +10,7 @@ model_paths = {
 	'resnet34': '/content/resnet34-333f7ec4.pth',
 	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pt',
 	# stylegan2 generators
-	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
+	'stylegan_ffhq': '/content/model.pt',
 	'stylegan_cars': 'pretrained_models/stylegan2-car-config-f.pt',
 	'stylegan_ada_wild': 'pretrained_models/afhqwild.pt',
 	# model for face alignment
