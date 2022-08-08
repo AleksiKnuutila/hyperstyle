@@ -1,5 +1,5 @@
 dataset_paths = {
-    'train_data': '/content/final_images_512'
+    'train_data': '/content/final_images_512',
     'test_data': '/content/final_images_512_test',
 }
 
