@@ -1,19 +1,6 @@
 dataset_paths = {
-	'cars_train': '',
-	'cars_test': '',
-
-	'celeba_train': '',
-	'celeba_test': '',
-	'celeba_test_w_inv': '',
-	'celeba_test_w_latents': '',
-
-	'ffhq': '',
-	'ffhq_w_inv': '',
-	'ffhq_w_latents': '',
-
-	'afhq_wild_train': '',
-	'afhq_wild_test': '',
-
+    'train_data': '/content/final_images_512'
+    'test_data': '/content/final_images_512_test',
 }
 
 model_paths = {
