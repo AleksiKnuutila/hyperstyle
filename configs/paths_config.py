@@ -8,7 +8,7 @@ model_paths = {
 	'e4e_w_encoder': '/content/cars_w_encoder.pt',
 	'ir_se50': '/content/model_ir_se50.pth',
 	'resnet34': '/content/resnet34-333f7ec4.pth',
-	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pt',
+	'moco': '/content/moco_v2_800ep_pretrain.pt',
 	# stylegan2 generators
 	'stylegan_ffhq': '/content/model.pt',
 	'stylegan_cars': 'pretrained_models/stylegan2-car-config-f.pt',
