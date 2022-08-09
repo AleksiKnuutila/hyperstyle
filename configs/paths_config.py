@@ -1,6 +1,8 @@
 dataset_paths = {
     'train_data': '/content/final_images_512',
     'test_data': '/content/final_images_512_test',
+    'test_latents': '/content/test_latents.npy',
+    'train_latents': '/content/test_latents.npy',
 }
 
 model_paths = {
