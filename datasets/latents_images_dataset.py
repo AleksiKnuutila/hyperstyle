@@ -25,7 +25,7 @@ class LatentsImagesDataset(Dataset):
 
 	def __getitem__(self, index):
 		#from_path = os.path.join(self.source_root, f'{index+1:05d}.png')
-		fp=list(self.latents.keys())[index)
+		fp=list(self.latents.keys())[index]
 		from_path = os.path.join(self.source_root, fp)
 		to_path = self.target_paths[index]
 
