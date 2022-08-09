@@ -15,7 +15,7 @@ class LatentsImagesDataset(Dataset):
 		# path to latents corresponding to inversions
 		# this should be a dictionary mapping image name to the image's latent code
 		self.latents = torch.load(latents_path, map_location='cpu')  
-		self.latents.requires_grad = False
+		#self.latents.requires_grad = False
 		self.source_transform = source_transform
 		self.target_transform = target_transform
 		self.opts = opts
