@@ -24,7 +24,9 @@ class LatentsImagesDataset(Dataset):
 		return len(self.target_paths)
 
 	def __getitem__(self, index):
-		from_path = os.path.join(self.source_root, f'{index+1:05d}.png')
+		#from_path = os.path.join(self.source_root, f'{index+1:05d}.png')
+		fp=list(self.latents.keys())[index)
+		from_path = os.path.join(self.source_root, fp)
 		to_path = self.target_paths[index]
 
 		from_im = Image.open(from_path).convert('RGB')
